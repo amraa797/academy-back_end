@@ -68,7 +68,7 @@ function login() {
 
 
 
- rl.question("Нэвтрэх нэрээ оруулна уу", (username) => {
+ rl.question("Нэвтрэх нэрээ оруулна уу"), (username) => {
     const user = users.find(user => user.username === username)
 
     if(!user) {
@@ -102,6 +102,16 @@ function showMenu(user) {
 console.log("amjilttei nevterlee")
 
 
+
+
+rl.question("Нэвтрэх нэрээ оруулна уу"), (username) => {
+    const user = users.find(user => user.username === username)
+
+    if(!user) {
+        console.log("user oldsongue")
+ 
+
+
   // 👉 Menu-г харуулах
   // 1. Үлдэгдэл шалгах
   // 2. Мөнгө нэмэх
@@ -124,4 +134,4 @@ rl.question("Сонголтоо оруулна уу: ", (startChoice) => {
     console.log("⚠️ Буруу сонголт!");
     rl.close();
   }
-});
+ßß
