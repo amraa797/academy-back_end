@@ -100,10 +100,6 @@ function login() {
 
 function showMenu(user) {
 console.log("amjilttei nevterlee")
-
-
-
-
 rl.question("Нэвтрэх нэрээ оруулна уу"), (username) => {
     const user = users.find(user => user.username === username)
 
@@ -134,4 +130,4 @@ rl.question("Сонголтоо оруулна уу: ", (startChoice) => {
     console.log("⚠️ Буруу сонголт!");
     rl.close();
   }
-ßß
+});
