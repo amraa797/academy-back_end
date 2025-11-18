@@ -1,5 +1,5 @@
-export class BankService {
-  checkBalance() {
-    return "6000";
-  }
-}
+// export class BankService {
+//   checkBalance() {
+//     return "6000";
+//   }
+// }
